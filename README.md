@@ -2,20 +2,37 @@
 
 ### How to use
 
-- chatbotに移動し以下コマンドを実行
+- docker の立ち上げ
+
+```
+docker-compose up -d
+docker-compose up -d --build
+```
+
+- docker の中に入る
+
+```
+docker-compose exec server bash
+```
+
+- chatbot に移動し以下コマンドを実行
+
 ```
 python manage.py runserver 0.0.0.0:8000
 ```
 
 ## migrations
-- migrationsファイルを削除
 
-- migrationsを行う
+- migrations ファイルを削除
+
+- migrations を行う
+
 ```
 python manage.py makemigrations
 ```
 
-- migrationsを適用
+- migrations を適用
+
 ```
 python manage.py migrate
 ```
