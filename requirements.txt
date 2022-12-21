@@ -6,3 +6,6 @@ numpy>=1.14.2
 jupyterlab 
 cabocha-python
 mecab-python3
+torch
+transformers
+SentencePiece
