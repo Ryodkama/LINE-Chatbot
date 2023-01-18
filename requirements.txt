@@ -9,3 +9,4 @@ mecab-python3
 torch
 transformers
 SentencePiece
+mlask

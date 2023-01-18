@@ -65,3 +65,4 @@ RUN cp /etc/mecabrc /usr/local/etc/
 
 # SHELL ["jupyter","lab", "--ip=0.0.0.0", "--allow-root", "--LabApp.token=''", "/bin/bash", "-c"]
 #jupyter lab --ip=0.0.0.0 --allow-root --LabApp.token=''
+# /usr/lib/x86_64-linux-gnu/mecab/dic/mecab-ipadic-neologd

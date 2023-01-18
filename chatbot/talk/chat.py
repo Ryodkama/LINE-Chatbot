@@ -45,18 +45,18 @@ def generate_text(text):
 text_list_A=[text]
 text_list_B=[]
 
-count=0
-while count < 5:
-    if count == 0:
-#         text_list_A.append(generate_text(text))
-        print('Aさん: ' + text_list_A[0])
+# count=0
+# while count < 5:
+#     if count == 0:
+# #         text_list_A.append(generate_text(text))
+#         print('Aさん: ' + text_list_A[0])
         
-        print('あなた: ', end="")
-        text_list_B.append(input("入力: "))
-    else:
-        text_list_A.append(generate_text(text_list_B[count-1]))
-        print('Aさん: ' + text_list_A[count])
-        print('あなた: ', end="")
-        text_list_B.append(input())
+#         print('あなた: ', end="")
+#         text_list_B.append(input("入力: "))
+#     else:
+#         text_list_A.append(generate_text(text_list_B[count-1]))
+#         print('Aさん: ' + text_list_A[count])
+#         print('あなた: ', end="")
+#         text_list_B.append(input())
         
-    count=count+1
+#     count=count+1

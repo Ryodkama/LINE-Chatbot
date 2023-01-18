@@ -4,11 +4,12 @@ import urllib.request
 import json
 
 REPLY_ENDPOINT_URL = "https://api.line.me/v2/bot/message/reply"
-ACCESSTOKEN = 'pD9vpXaTE8JMTcHxHro5AJud06Ac5eJkmsF61v1G4FKUZCZ15gDp3tycFGtyJ3eTXRQAR8eqXMBg9Hln+0GyqEsP+0Dcz/SlpeWsbqWrQ2Mv9Cqp5uAJB1rMg8y1u01S91w0hlLHqQURbWJbezFRywdB04t89/1O/w1cDnyilFU='
+ACCESSTOKEN = '/O9530wzGB2KmY8NXkd30+jZyblucWoMtaIHFcF05gsChTxtrj5cKWEAsC/kOIpI/+Kzrqa+TwiuHPhAN9VsTqf7bAvqandL6eOd+k5BhuR87mtUciJT+NBu3REkkbn8slyjWhRZJ44A/Z+La7zqjgdB04t89/1O/w1cDnyilFU='
 HEADER = {
     'Content-Type': 'application/json',
     'Authorization': 'Bearer ' + ACCESSTOKEN
 }
+print("sssssssssssssssssssss")
 
 class LineMessage():
     def __init__(self, messages):
